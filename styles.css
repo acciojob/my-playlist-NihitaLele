@@ -6,18 +6,37 @@
 }
 .song_lists{
 	list-style-type:none;
-
+	padding:3px;
+}
 .link{
 	text-decoration-line:none;
+	color:black;
 }
+
 #list_main{
 	border-radius:5px;
-	border-width:2px;
-	border-style:solid;
-	border-color:black;
+	border:2px solid black;
 	background-color: rgb(255, 255, 255);
+	margin:12px;
 }	
-#player_one{
+.player_one{
+	border-radius:5px;
+	border:2px solid black;
 	background-color: rgb(255, 255, 255);
+	margin:40px;
 	
+}
+.player_two{
+	border-radius:5px;
+	border:2px solid black;
+	background-color: rgb(255, 255, 255);
+	margin:40px;
+}
+.video_1{
+	padding:20px;
+	width:530px;
+}
+.audio_1{
+	padding:20px;
+	width:530px;
 }
